@@ -2,8 +2,10 @@ package iphone;
 
 import iphone.browser.Browser;
 import iphone.mediaPlayer.MediaPlayer;
+import iphone.mediaPlayer.music.Music;
+import iphone.mediaPlayer.video.Video;
 import iphone.phone.Phone;
-import org.w3c.dom.DOMImplementation;
+import iphone.phone.contact.Contato;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -97,6 +99,121 @@ public class iPhone  implements Browser, MediaPlayer, Phone {
     }
 
     protected void desconectarBth() {
+
+    }
+
+    @Override
+    public void irSite(String[] siteURL) {
+
+    }
+
+    @Override
+    public void voltarPagina() {
+
+    }
+
+    @Override
+    public void avancarPagina() {
+
+    }
+
+    @Override
+    public void recarregarPagina() {
+
+    }
+
+    @Override
+    public void cancelarPagina() {
+
+    }
+
+    @Override
+    public void abrirMapa(Double[] locGPS) {
+
+    }
+
+    @Override
+    public int ligarLugar(Double[] locGPS) {
+        return 0;
+    }
+
+    @Override
+    public void abrirClima(Double[] locGPS) {
+
+    }
+
+    @Override
+    public void tooglePlayerPause() {
+
+    }
+
+    @Override
+    public void changeVideo(Video vid) {
+
+    }
+
+    @Override
+    public void fowardMusic() {
+
+    }
+
+    @Override
+    public void backwardMusic() {
+
+    }
+
+    @Override
+    public void changeMusic(Music mus) {
+
+    }
+
+    @Override
+    public void changePlaylist(List<Music> list) {
+
+    }
+
+    @Override
+    public void buscarContato(Contato c) {
+
+    }
+
+    @Override
+    public void ligarContato(Contato c) {
+
+    }
+
+    @Override
+    public void ligarCaixaPostal() {
+
+    }
+
+    @Override
+    public void abrirSMS(String sms) {
+
+    }
+
+    @Override
+    public void enviarSMS(String sms) {
+
+    }
+
+    @Override
+    public void ligarChamada(int numero) {
+
+    }
+
+    @Override
+    public void desligarChamada(int numero) {
+
+    }
+
+    @Override
+    public void trocarSomVivaVoz() {
+
+    }
+
+    @Override
+    public void iniciarConferencia(int numero1, int numero2) {
 
     }
 
